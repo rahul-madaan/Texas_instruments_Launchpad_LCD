@@ -3,23 +3,7 @@
 //  Example for library for Sharp BoosterPack LCD with hardware SPI
 //
 //
-//  Author :  Stefan Schauer
-//  Date   :  Oct. 17, 2017
-//  Version:  1.00
-//  File   :  LCD_Sharp128BoosterPack_SPI_main.ino
-//
-//  Version:  1.00 : setup for Sharp128 Booster pack based on Sharp96 example
-//
-//  Based on the LCD5110 Library
-//  Created by Rei VILO on 28/05/12
-//  Copyright (c) 2012 http://embeddedcomputing.weebly.com
-//  Licence CC = BY SA NC
-//
-//  Edited 2015-07-11 by ReiVilo
-//  Added setOrientation(), setReverse() and flushReverse()
-//
 
-// Include application, user and local libraries
 #include "SPI.h"
 #include "OneMsTaskTimer.h"
 #include "LCD_SharpBoosterPack_SPI.h"
